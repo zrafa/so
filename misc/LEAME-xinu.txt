@@ -56,5 +56,5 @@ xsh $ echo "Hola MUNDO"		# ejecuta el programa echo
 xsh $ sleep 3			# ejecuta sleep, que duerme por 3 segundos
 xsh $ sleep 20 &		# ejecuta sleep en segundo plano
 xsh $ ps			# se muestra los procesos en ejecucion
-xsh $ kill 7			# mata el proceso 7 
+xsh $ kill 7			# finaliza el proceso 7 
 
