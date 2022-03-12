@@ -1,0 +1,60 @@
+
+Instrucciones para utilizar XINU
+================================
+
+
+Para poder usar y modificar el sistema operativo Xinu se necesita
+contar con una PC Linux, y herramientas de desarrollo para programar
+en lenguaje C (minimamente un compilador de C y la bilbioteca libc).
+
+Paquetes requeridos:
+bison
+flex
+build-essential
+qemu-system-x86
+xorriso
+
+
+
+Descargar, compilar y probar Xinu
+---------------------------------
+
+# descargar el código fuente
+wget http://se.fi.uncoma.edu.ar/misc/xinu-pc.tar.gz
+
+# desempaquetar
+tar xvf xinu-pc.tar.gz
+
+# compilar
+cd xinu-pc/compile/
+make clean
+make
+
+# ejecutar en una PC (qemu)
+make run-qemu
+
+# para acceder a la CONSOLA (shell)
+CTRL+ALT+3
+
+
+
+
+Algunos comandos del shell
+--------------------------
+
+El shell de Xinu ya cuenta con algunas aplicaciones que pueden ejecutarse.
+echo
+ps
+uptime
+memstat
+sleep
+etc... 
+
+Ejemplo:
+
+xsh $ echo "Hola MUNDO"		# ejecuta el programa echo
+xsh $ sleep 3			# ejecuta sleep, que duerme por 3 segundos
+xsh $ sleep 20 &		# ejecuta sleep en segundo plano
+xsh $ ps			# se muestra los procesos en ejecucion
+xsh $ kill 7			# mata el proceso 7 
+

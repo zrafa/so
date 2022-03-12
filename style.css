@@ -1,0 +1,25 @@
+body{
+    margin:auto;
+    max-width:40em;
+    /* font-family: "Serif"; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+img{
+        width:80%;
+        max-width:40em;
+}
+code,pre{
+    background-color: #000000;
+    border-radius: 0.25em;
+    border-style: none;
+    color: #8080ff;
+    font-family: monospace;
+}
+pre{
+    border-color: #8080ff;
+    border-radius: 1em;
+    border-style: outset;
+    border-width: 0.25em;
+    padding: 0.5em;
+}
