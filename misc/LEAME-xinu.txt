@@ -10,6 +10,7 @@ en lenguaje C (minimamente un compilador de C y la bilbioteca libc).
 Paquetes requeridos:
 bison
 flex
+gawk
 build-essential
 qemu-system-x86
 xorriso
@@ -20,7 +21,7 @@ Descargar, compilar y probar Xinu
 ---------------------------------
 
 # descargar el código fuente
-wget http://se.fi.uncoma.edu.ar/misc/xinu-pc.tar.gz
+wget http://se.fi.uncoma.edu.ar/so/misc/xinu-pc.tar.gz
 
 # desempaquetar
 tar xvf xinu-pc.tar.gz
