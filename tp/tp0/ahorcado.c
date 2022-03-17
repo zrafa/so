@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stlib.h>	/* para las funciones system y exit */
+#include <stdlib.h>	/* para las funciones system y exit */
 
 int main() {
 
@@ -14,7 +14,8 @@ int main() {
 		c = getchar();
 
 		if (c == '0')
-			exit(0);
+			break;
 	}
 
+	system ("/bin/stty sane erase ^H");
 }
