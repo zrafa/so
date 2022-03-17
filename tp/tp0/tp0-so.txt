@@ -1,0 +1,120 @@
+
+Sistemas Operativos I - Trabajo Práctico 0
+==========================================
+
+Bibliografia: 
+	Brian Kernighan y Dennis Ritchie, El lenguaje de programación C 
+	(título original en inglés: The C Programming Language)
+
+	Eduardo Grosclaude, Taller de Lenguaje en C
+	http://se.fi.uncoma.edu.ar/pse2020/taller-c/index.html
+
+0. Escriba un programa hello world. Compilar y ejecutar.
+   Por ejemplo: 
+		vi hello.c   # edicion. Usar vi u otro editro de predileccion
+		make hello   # compilacion
+		gcc -o hello hello.c # compilación invocando gcc)
+		./hello	     # ejecucion
+
+
+1. Enumerar los tipos de datos básicos en C. 
+   Escriba una definición de una variable de cada tipo. Por ej.  :  int a;
+
+
+2. Explique qué significa la palabra word cuando el contexto es la 
+   Arquitectura de una Computadora.
+
+
+3. ¿Cuántos bits puede almacenar una variable declarada como int en C? 
+   (ej. int var;)
+   Suponga 3 computadoras de arquitecturas diferentes: arquitecturas de 8bits, 
+   32bits y 64bits?.
+
+   ¿Y en su PC?
+
+    NOTA: la respuesta no es tan trivial como parece. Deberá buscar información
+          sobre el lenguaje de programación C. Use wikipedia u otros recursos.
+
+
+4. Explique la difercia en la salida de las siguientes instrucciones:
+
+   char a = 'M';
+   printf ("a = %i \n", a);
+   printf ("La letra %c \n", a);
+
+   ¿Cuál es el valor numérico de a?
+
+
+5. ¿Cuál es el rango numérico de i y j en su PC?
+   
+   char i;
+   unsigned char j;
+
+
+6. ¿Cuál es el valor en base 2 (binario) de i, j, k, m, n, p ?
+
+   char i = 'a';
+   char j = 77;
+   char k = 0x4D;
+
+
+7. Cuáles de entre estas declaraciones contienen errores?
+
+    integer a;
+    short i,j,k;
+    long float (h);
+    double long d3;
+    unsigned float n;
+    char 2j;
+    int MY;
+    float ancho, alto, long;
+    bool i;
+
+8. Averigüe los tamaños de todos los tipos básicos en su sistema aplicando 
+    el operador sizeof().
+
+
+9. Prepare un programa con una variable de tipo char y otra de tipo unsigned 
+    char. Inicialice ambas variables con los valores máximos de cada tipo, 
+    para comprobar el resultado de incrementarlas en una unidad. 
+    Imprima los valores de cada variable antes y después del incremento.
+
+
+10. 
+10.a ¿Qué hace falta corregir para que la variable r contenga la división 
+    exacta de a y b?
+
+    int a, b;
+    float r;
+    a = 5;
+    b = 2;
+    r = a / b;		
+	
+10.b ¿Qué resultado puede esperarse del siguiente fragmento de código?
+
+    int a, b, c, d;
+    a = 1;
+    b = 2;
+    c = a / b;
+    d = a / c;
+	
+10.c ¿Cuál es el resultado del siguiente fragmento de código? Anticipe su 
+    respuesta en base a lo dicho en esta unidad y luego confírmela mediante 
+    un programa.
+
+    printf("%d\n", 20/3);
+    printf("%f\n", 20/3);
+    printf("%f\n", 20/3.);
+    printf("%d\n", 10%3);
+    printf("%d\n", 3.1416);
+    printf("%f\n", (double)20/3);
+    printf("%f\n", (int)3.1416);
+    printf("%d\n", (int)3.1416);
+	
+11. Escribir un programa que multiplique e imprima 100000 * 100000. 
+    ¿De qué tamaño son los ints en su sistema?
+
+12. Usando printf() y getchar(), desarrolle un video juego del ahorcado.
+
+
+
