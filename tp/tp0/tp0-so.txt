@@ -115,6 +115,7 @@ Bibliografia:
     ¿De qué tamaño son los ints en su sistema?
 
 12. Usando printf() y getchar(), desarrolle un video juego del ahorcado.
+    Utilice el código ahorcado.c como base.
 
 
 
