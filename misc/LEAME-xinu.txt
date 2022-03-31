@@ -14,6 +14,8 @@ gawk
 build-essential
 qemu-system-x86
 xorriso
+grub-common
+grub-pc-bin
 
 
 
