@@ -10,7 +10,9 @@ Con el programa xfreerdp (instalar desde el repositorio de paquetes)
 
 Conectarse con:
 
-xfreerdp    /v:aularemota.fi.uncoma.edu.ar:1199 /u:rzurita
+xfreerdp    /v:aularemota.fi.uncoma.edu.ar:1199 /u:usuario@est.fi.uncoma.edu.ar
+
+# NOTA: usuario, en el comando anterior, es su usuario en el laboratorio
 
 
 
