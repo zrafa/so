@@ -124,8 +124,14 @@ Bibliografia:
 11. Escribir un programa que multiplique e imprima 100000 * 100000. 
     ¿De qué tamaño son los ints en su sistema?
 
-12. Usando printf() y getchar(), desarrolle un video juego del ahorcado.
-    Utilice el código ahorcado.c como base.
+12. Descague el código ahorcado.c propuesto por la catedra.
+    12.a Investigar cuál es la función que cumplen las siguientes lineas de código:
+        #include <stdio.h>
+        #include <stdlib.h>
+        system ("/bin/stty raw");
+        system ("/bin/stty sane erase ^H");
+
+    12.b Complete el código ahorcado.c usando printf() y getchar(), para desarrollar el juego del ahorcado.
 
 
 
