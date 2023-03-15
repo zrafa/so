@@ -36,13 +36,23 @@ Bibliografia:
           sobre el lenguaje de programación C. Use wikipedia u otros recursos.
 
 
-4. Explique la difercia en la salida de las siguientes instrucciones:
+4. Explique la diferencia en la salida de las siguientes instrucciones:
 
    char a = 'M';
    printf ("a = %i \n", a);
    printf ("La letra %c \n", a);
 
    ¿Cuál es el valor numérico de a?
+
+   	Ayuda: En la función printf() se pasa como parámetro la cadena de caráceteres 
+	que se desea imprimir y, además, cada una de las variables que serán visualizadas. 
+   
+	Si deseamos imprimir más de una variable en una cadena de carácteres,
+	el orden de los parámetros debe corresponder al órden de dichas variables en la cadena.
+  
+	char sensor;
+	float temp; 
+	printf('La temperatura de %c es %f',sensor, temp);
 
 
 5. ¿Cuál es el rango numérico de i y j en su PC?
