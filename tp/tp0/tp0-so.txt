@@ -44,11 +44,11 @@ Bibliografia:
 
    ¿Cuál es el valor numérico de a?
 
-   	Ayuda: En la función printf() se pasa como parámetro la cadena de caráceteres 
+   	Ayuda: En la función "printf()" se pasa como parámetro la cadena de caracteres 
 	que se desea imprimir y, además, cada una de las variables que serán visualizadas. 
    
-	Si deseamos imprimir más de una variable en una cadena de carácteres,
-	el orden de los parámetros debe corresponder al órden de dichas variables en la cadena.
+	Si deseamos imprimir más de una variable en una cadena de caracteres,
+	el orden de los parámetros debe corresponder al orden de dichas variables en la cadena.
   
 	char sensor;
 	float temp; 
@@ -124,7 +124,7 @@ Bibliografia:
 11. Escribir un programa que multiplique e imprima 100000 * 100000. 
     ¿De qué tamaño son los ints en su sistema?
 
-12. Descague el código ahorcado.c propuesto por la catedra.
+12. Descargue el código ahorcado.c propuesto por la cátedra.
     12.a Investigar cuál es la función que cumplen las siguientes lineas de código:
         #include <stdio.h>
         #include <stdlib.h>
