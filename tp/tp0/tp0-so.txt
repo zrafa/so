@@ -61,7 +61,7 @@ Bibliografia:
    unsigned char j;
 
 
-6. ¿Cuál es el valor en base 2 (binario) de i, j, k, m, n, p ?
+6. ¿Cuál es el valor en base 2 (binario) de i, j, k?
 
    char i = 'a';
    char j = 77;
