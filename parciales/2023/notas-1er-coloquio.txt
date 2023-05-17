@@ -1,0 +1,14 @@
+
+Calificaciones del primer coloquio 2023
+=======================================
+
+Listado de estudiantes APROBADOS
+
+
+Hernandez Agustín	A
+Leonardo Correa		A
+Adriano Lusso		A(*)
+Muñoz Alessi Facundo	A(*)
+Iovaldi Sebastián	A(*)
+
+(*): deben alcanzar una calificación mínima del 80% en el segundo coloquio.
