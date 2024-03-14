@@ -27,3 +27,13 @@ pre {
     border-width: 0.25em;
     padding: 0.5em;
 }
+
+a {
+    color: #007bff; /* Color del texto del enlace */
+    text-decoration: none; /* Eliminar el subrayado predeterminado */
+    transition: color 0.3s ease; /* Efecto de transición para el color */
+}
+
+a:hover {
+    color: #13b698; /* Color del texto del enlace al pasar el mouse */
+}
