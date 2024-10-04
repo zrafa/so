@@ -20,6 +20,7 @@ Windows
 -------
 
 Con algun programa que realice conexiones RDP. 
+En Windows usualmente se llama "Conexión REMOTA"
 
 Para conectarse especificar:
 
