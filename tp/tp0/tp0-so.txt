@@ -18,7 +18,7 @@ Bibliografia:
 			     # como pluma
 		make hello   # compilacion
 
-		# Tambien se puede "compilar el programa usando invocando gcc:
+		# Tambien se puede "compilar" el programa invocando gcc:
 		gcc -o hello hello.c # compilación invocando gcc
 
 		# NOTA: no use make y luego gcc. Uno u otro.
