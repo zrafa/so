@@ -10,14 +10,21 @@ Bibliografia:
 	https://se.fi.uncoma.edu.ar/so/clases/apuntes/taller-c.pdf
 
 0. Escriba un programa hello world. Compilar y ejecutar.
+   (utilice como soporte la sección "1.4 Un primer ejemplo" del PDF
+    taller-c.pdf)
+ 
    Por ejemplo: 
 		vi hello.c   # edicion. Usar vi u otro editro de predileccion
+			     # como pluma
 		make hello   # compilacion
 		gcc -o hello hello.c # compilación invocando gcc)
 		./hello	     # ejecucion
 
 
 1. Enumerar los tipos de datos básicos en C. 
+   (utilice como soporte el capítulo "Capítulo 3 Tipos de datos y expresiones"
+    del PDF taller-c.pdf)
+ 
    Escriba una definición de una variable de cada tipo. Por ej.  :  int a;
 
 
