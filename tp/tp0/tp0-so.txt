@@ -7,7 +7,7 @@ Bibliografia:
 	(título original en inglés: The C Programming Language)
 
 	Eduardo Grosclaude, Taller de Lenguaje en C
-	http://se.fi.uncoma.edu.ar/pse2020/taller-c/index.html
+	https://se.fi.uncoma.edu.ar/so/clases/apuntes/taller-c.pdf
 
 0. Escriba un programa hello world. Compilar y ejecutar.
    Por ejemplo: 
@@ -44,11 +44,13 @@ Bibliografia:
 
    ¿Cuál es el valor numérico de a?
 
-   	Ayuda: En la función "printf()" se pasa como parámetro la cadena de caracteres 
-	que se desea imprimir y, además, cada una de las variables que serán visualizadas. 
+   	Ayuda: En la función "printf()" se pasa como parámetro la cadena de 
+        caracteres que se desea imprimir y, además, cada una de las variables 
+        que serán visualizadas. 
    
 	Si deseamos imprimir más de una variable en una cadena de caracteres,
-	el orden de los parámetros debe corresponder al orden de dichas variables en la cadena.
+	el orden de los parámetros debe corresponder al orden de dichas 
+        variables en la cadena.
   
 	char sensor;
 	float temp; 
@@ -79,6 +81,7 @@ Bibliografia:
     int MY;
     float ancho, alto, long;
     bool i;
+
 
 8. Averigüe los tamaños de todos los tipos básicos en su sistema aplicando 
     el operador sizeof().
@@ -121,17 +124,21 @@ Bibliografia:
     printf("%f\n", (int)3.1416);
     printf("%d\n", (int)3.1416);
 	
+
 11. Escribir un programa que multiplique e imprima 100000 * 100000. 
     ¿De qué tamaño son los ints en su sistema?
 
+
 12. Descargue el código ahorcado.c propuesto por la cátedra.
-    12.a Investigar cuál es la función que cumplen las siguientes lineas de código:
+12.a Investigar cuál es la función que cumplen las siguientes lineas de 
+    código:
         #include <stdio.h>
         #include <stdlib.h>
         system ("/bin/stty raw");
         system ("/bin/stty sane erase ^H");
 
-    12.b Complete el código ahorcado.c usando printf() y getchar(), para desarrollar el juego del ahorcado.
+12.b Complete el código ahorcado.c usando printf() y getchar(), para 
+    desarrollar el juego del ahorcado.
 
 
 
