@@ -21,10 +21,10 @@ Bibliografia:
 		./hello	     # ejecucion
 
 
+NOTA: Para los ejercicio 1. a 9. inclusive utilice como soporte el 
+capítulo "Capítulo 3 Tipos de datos y expresiones" del PDF taller-c.pdf
+
 1. Enumerar los tipos de datos básicos en C. 
-   (utilice como soporte el capítulo "Capítulo 3 Tipos de datos y expresiones"
-    del PDF taller-c.pdf)
- 
    Escriba una definición de una variable de cada tipo. Por ej.  :  int a;
 
 
@@ -98,9 +98,13 @@ Bibliografia:
     char. Inicialice ambas variables con los valores máximos de cada tipo, 
     para comprobar el resultado de incrementarlas en una unidad. 
     Imprima los valores de cada variable antes y después del incremento.
+    (Nota: vea la sección "3.2. Tamaños de los objetos de datos" 
+     de taller-c.pdf.)
 
 
 10. 
+   (utilice como soporte la sección "3.3. Operaciones con distintos tipos" 
+    del PDF taller-c.pdf)
 10.a ¿Qué hace falta corregir para que la variable r contenga la división 
     exacta de a y b?
 
